@@ -1,0 +1,94 @@
+
+/* Grid generate with the help of https://grid.layoutit.com/ */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 3fr 1.5fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Banner Banner Banner Banner Banner"
+      "Navigation-Bar Navigation-Bar Navigation-Bar Navigation-Bar Navigation-Bar"
+      ". Module-Overview Module-Overview Module-To-Do ."
+      ". Module-Section-1-Body Module-Section-1-Body Module-Section-1-Links ."
+      ". Module-Section-2-Body Module-Section-2-Body Module-Section-2-Links ."
+      ". Module-Section-3-Body Module-Section-3-Body Module-Section-3-Links ."
+      ". Assignment-Box Assignment-Box Assignment-Box ."
+      ". Module-Navigation Module-Navigation Module-Navigation ."
+      "Website-Footer Website-Footer Website-Footer Website-Footer Website-Footer";
+    width: 100%;
+    height: 1500px;
+  }
+  
+  .Banner { 
+      grid-area: Banner; 
+      padding-left: 25px;
+      color: white;
+      background-image: url("http://www.rhodesonthepawtuxet.com/wp-content/themes/options/images/skins/headers/boxed/header-midnightBlue.jpg");
+    }
+  
+  .Navigation-Bar { 
+      grid-area: Navigation-Bar; 
+      padding-left: 25px;
+      background-color: cornflowerblue;
+      border: 2px solid #111111;
+
+    }
+  
+  .Module-Overview { grid-area: Module-Overview;
+    margin: 10px;
+    padding: 10px; }
+  
+  .Module-To-Do { grid-area: Module-To-Do;
+    margin: 10px;
+    padding: 10px; }
+  
+  .Module-Section-3-Body { grid-area: Module-Section-3-Body;
+    margin: 10px;
+    padding: 10px; }
+  
+  .Module-Section-2-Body { grid-area: Module-Section-2-Body;
+    margin: 10px;
+    padding: 10px; }
+  
+  .Module-Section-1-Body { 
+
+      grid-area: Module-Section-1-Body; 
+      background-color:darkturquoise;
+      border: 2px solid black;
+      margin: 10px;
+      padding: 10px;
+    }
+  
+  .Module-Section-1-Links { 
+      grid-area: Module-Section-1-Links;
+      background-color:gray; 
+      border: 2px solid black; 
+      margin: 10px;
+      padding: 10px;
+     }
+  
+  .Module-Section-2-Links { grid-area: Module-Section-2-Links;
+    margin: 10px;
+    padding: 10px; }
+  
+  .Module-Section-3-Links { grid-area: Module-Section-3-Links;
+    margin: 10px;
+    padding: 10px; }
+  
+  .Assignment-Box { grid-area: Assignment-Box;
+    margin: 10px;
+    padding: 10px; }
+  
+  .Module-Navigation { 
+      grid-area: Module-Navigation;
+      text-align:center;
+      margin: 10px;
+      padding: 10px;
+     }
+  
+  .Website-Footer { 
+      grid-area: Website-Footer;
+      text-align: center;
+    }
+  
