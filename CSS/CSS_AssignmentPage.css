@@ -1,19 +1,13 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1.5fr 3fr 1.5fr 1fr;
-    grid-template-rows: 1fr 0.5fr 1.5fr 1.5fr 1.5fr 1.3fr;
+    grid-template-rows: 1fr 0.5fr 1.5fr 1.5fr 1.5fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     width: 100%;
-    height: 930px;
+    height: 700px;
   }
-  
-  .Banner { grid-area: 1 / 1 / 2 / 6; }
-  
-  .Navigation-Bar { grid-area: 2 / 1 / 3 / 6; }
-  
-  .Website-Footer { grid-area: 6 / 1 / 7 / 6; }
-  
+
   .Assignment-Box { grid-area: 3 / 2 / 5 / 5; }
   
   .Image-Box { grid-area: 3 / 4 / 4 / 5; }
