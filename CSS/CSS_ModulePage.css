@@ -1,9 +1,9 @@
 
 /* Grid generate with the help of https://grid.layoutit.com/ */
-.container {
+.webpage { /*This is CSS that applies to the entire page*/
   display: grid; 
   grid-template-columns: 1fr 1.5fr 3fr 1.5fr 1fr; 
-  grid-template-rows: 1fr 0.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr; 
+  grid-template-rows: 1fr 0.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr 1fr; 
   gap: 0px 0px; 
   grid-template-areas: 
     "Banner Banner Banner Banner Banner"
@@ -15,31 +15,38 @@
     ". Module-Navigation Module-Navigation Module-Navigation ."
     "Website-Footer Website-Footer Website-Footer Website-Footer Website-Footer"; 
   width: 100%;
-  height: 1000px;
+  height: 1200px;
+  background-color: #E1ECF9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
   
   .Banner { 
       grid-area: Banner; 
       padding-left: 25px;
-      color: white;
       background-image: url("http://www.rhodesonthepawtuxet.com/wp-content/themes/options/images/skins/headers/boxed/header-midnightBlue.jpg");
+      color: #ffffff;
     }
   
   .Navigation-Bar { 
       grid-area: Navigation-Bar; 
       padding-left: 25px;
-      background-color: cornflowerblue;
+      background-color: #091D34;
+      color: #ffffff;
       border: 2px solid #111111;
 
     }
-  
+
   .Module-Overview { grid-area: Module-Overview;
     margin: 10px;
-    padding: 10px; }
+    padding: 10px; 
+    }
   
   .Module-To-Do { grid-area: Module-To-Do;
     margin: 10px;
-    padding: 10px; }
+    padding: 10px; 
+    background-color: #609CE1aa;
+    color: #ffffff}
   
   .Module-Section-3-Body { grid-area: Module-Section-3-Body;
     margin: 10px;
@@ -52,41 +59,64 @@
   .Module-Section-1-Body { 
 
       grid-area: Module-Section-1-Body; 
-      background-color:darkturquoise;
-      border: 2px solid black;
       margin: 10px;
       padding: 10px;
     }
   
   .Module-Section-1-Links { 
       grid-area: Module-Section-1-Links;
-      background-color:gray; 
-      border: 2px solid black; 
       margin: 10px;
       padding: 10px;
+      background-color: #609CE1aa;
+      color: #ffffff
      }
   
   .Module-Section-2-Links { grid-area: Module-Section-2-Links;
     margin: 10px;
-    padding: 10px; }
+    padding: 10px;
+    background-color: #609CE1aa;
+    color: #ffffff }
   
   .Module-Section-3-Links { grid-area: Module-Section-3-Links;
     margin: 10px;
-    padding: 10px; }
-  
-  .Assignment-Box { grid-area: Assignment-Box;
-    margin: 10px;
-    padding: 10px; }
+    padding: 10px; 
+    background-color: #609CE1aa;
+    color: #ffffff}
   
   .Module-Navigation { 
+      align-items: center;
       grid-area: Module-Navigation;
       text-align:center;
-      margin: 10px;
       padding: 10px;
+      border: 2px solid #091D34;
+      background-color: #9eb8d6;
+
      }
   
   .Website-Footer { 
       grid-area: Website-Footer;
       text-align: center;
+      background-color: #133863;
+      color: #ffffff;
     }
   
+
+h4 {
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.topbutton {
+  font-weight: bold;
+}
+
+a {
+  color:#ffffff;
+}
+
+a:visited{
+  color: #609CE1;
+}

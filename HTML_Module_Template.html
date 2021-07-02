@@ -7,15 +7,14 @@
 
     </head>
 
-
-    <div class="container">
+    <div class="webpage">
         <div class="Banner">
             <!--Banner image and link to homepage-->
             <h1>INSC 598: Web Design</h1>
         </div>
         <div class="Navigation-Bar">
             <!--Navigation Links-->
-            <p>navigation links ~ navigation links ~ navigation links</p>
+            <p><a href="link">Link 1</a> <a href="https://docs.google.com/document/d/1gBZZ0uy2pKbWUuFWZ0NoDKGlKagb_qmzyl7_N76I6Kg/edit">Link 2</a></p>
         </div>
 
         <div class="Module-Overview">
@@ -33,23 +32,21 @@
             </ul>
         </div>
 
-
         <div class="Module-Section-1-Body">
-            <h2>Section 1 Title</h2>
+            <h3>Section 1 Title</h3>
             <p>Section 1 description</p>
         </div>
         <div class="Module-Section-1-Links">
             <h4>Section 1 Readings</h4>
             <ul>
-                <li>Reading 1</li>
+                <li><a href="Link">Reading 1</a></li>
                 <li>Reading 2</li>
                 <li>Reading 3</li>
-                <p>Jump to top</p>
             </ul>
         </div>
 
         <div class="Module-Section-2-Body">
-            <h2>Section 2 Title</h2>
+            <h3>Section 2 Title</h3>
             <p>Section 2 description</p>
         </div>
 
@@ -60,12 +57,11 @@
                 <li>Reading 2</li>
                 <li>Reading 3</li>
             </ul>
-            <p>Jump to top</p>
         </div>
 
 
         <div class="Module-Section-3-Body">
-            <h2>Section 3 Title</h2>
+            <h3>Section 3 Title</h3>
             <p>Section 3 description</p>
         </div>
 
@@ -76,15 +72,17 @@
                 <li>Reading 2</li>
                 <li>Reading 3</li>
             </ul>
-            <p>Jump to top</p>
+
         </div>
 
         <div class="Assignment-Box"></div>
 
         <div class="Module-Navigation">
-            <p>Jump to top
-            <br> Next Module 
-                <br>Previous Module</p>
+            <button onclick="topFunction()" id="myBtn" title="Go to top" >Jump to top</button>
+            <br>
+            <button onclick="link">Next Module</button>
+            <br>
+            <button  onclick="link">Previous Module</button>
 
         </div>
 
@@ -93,6 +91,15 @@
         </div>
       </div>
 
+<!-- some javascript for jump to top buttons! Don't be scared!-->
+<script>
+    var mybutton = document.getElementById("myBtn");
+
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
 
 
+</script>
 </html>
