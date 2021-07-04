@@ -3,7 +3,7 @@
 .webpage { /*This is CSS that applies to the entire page*/
   display: grid; 
   grid-template-columns: 1fr 1.5fr 3fr 1.5fr 1fr; 
-  grid-template-rows: 1fr 0.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr 1fr; 
+  grid-template-rows: 150px 50px 1.5fr 1.5fr 1.5fr 1.5fr .5fr 100px; 
   gap: 0px 0px; 
   grid-template-areas: 
     "Banner Banner Banner Banner Banner"
@@ -15,10 +15,9 @@
     ". Module-Navigation Module-Navigation Module-Navigation ."
     "Website-Footer Website-Footer Website-Footer Website-Footer Website-Footer"; 
   width: 100%;
-  height: 1200px;
+  height: 100%;
   background-color: #E1ECF9;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
   
   .Banner { 
@@ -33,7 +32,6 @@
       padding-left: 25px;
       background-color: #091D34;
       color: #ffffff;
-      border: 2px solid #111111;
 
     }
 
@@ -114,9 +112,26 @@ h3 {
 }
 
 a {
-  color:#ffffff;
+  color:#236AB9;
 }
 
 a:visited{
+  color: #133863;
+}
+
+a.navigation{
+  color:#ffffff;
+}
+
+a.navigation:visited {
   color: #609CE1;
+}
+
+a.header {
+  color:#ffffff;
+  text-decoration: none;
+}
+a.header:visited {
+  color:#ffffff;
+  text-decoration: none;
 }
