@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> <!-- Page Title --> </title>
+        <!-- Style Sheets-->
+        <link rel="stylesheet" href="../CSS/CSS_ModulePage.css">
+
+    </head>
+
+    <div class="webpage">
+        <div class="Banner">
+            <!--Banner image and link to homepage-->
+           <h1><a class="header" href = "../HTML_Home.html">INSC 598: Web Design</a></h1> 
+        </div>
+        <div class="Navigation-Bar">
+            <!--Navigation Links-->
+            <p>
+                <a class="navigation" href="../HTML_Home.html">Home</a>
+                <a class="navigation" href="../Module1/HTML_Module1.html">Module 1</a> 
+                <a class="navigation" href="../Module1/HTML_Module2.html">Module 2</a>
+                <a class="navigation" href="../Module1/HTML_Module3.html">Module 3</a>
+                <a class="navigation" href="../Module1/HTML_Module4.html">Module 4</a>
+            </p>
+        </div>
+
+        <div class="Module-Overview">
+            <h2>Module Title</h2>
+            <p>Module overview description.</p>
+        </div>
+
+        <div class="Module-To-Do">
+            <h4>Module Sections and Assignment Links</h4>
+            <ul>
+                <li>Section 1</li>
+                <li>Section 2</li>
+                <li>Section 3</li>
+                <li>Assignment</li>
+            </ul>
+        </div>
+
+        <div class="Module-Section-1-Body">
+            <h3>Section 1 Title</h3>
+            <p>Section 1 description</p>
+        </div>
+        <div class="Module-Section-1-Links">
+            <h4>Section 1 Readings</h4>
+            <ul>
+                <li><a href="Link">Reading 1</a></li>
+                <li>Reading 2</li>
+                <li>Reading 3</li>
+            </ul>
+        </div>
+
+        <div class="Module-Section-2-Body">
+            <h3>Section 2 Title</h3>
+            <p>Section 2 description</p>
+        </div>
+
+        <div class="Module-Section-2-Links">
+            <h4>Section 2 Readings</h4>
+            <ul>
+                <li>Reading 1</li>
+                <li>Reading 2</li>
+                <li>Reading 3</li>
+            </ul>
+        </div>
+
+
+        <div class="Module-Section-3-Body">
+            <h3>Section 3 Title</h3>
+            <p>Section 3 description</p>
+        </div>
+
+        <div class="Module-Section-3-Links">
+            <h4>Section 3 Readings</h4>
+            <ul>
+                <li>Reading 1</li>
+                <li>Reading 2</li>
+                <li>Reading 3</li>
+            </ul>
+
+        </div>
+
+        <div class="Assignment-Box"></div>
+
+        <div class="Module-Navigation">
+            <button onclick="topFunction()" id="myBtn" title="Go to top" >Jump to top</button>
+            <br>
+            <button onclick="link">Next Module</button>
+            <br>
+            <button  onclick="link">Previous Module</button>
+
+        </div>
+
+        <div class="Website-Footer">
+            <p>For more information, please contact professor.</p>
+        </div>
+      </div>
+
+<!-- some javascript for jump to top buttons! Don't be scared!-->
+<script>
+    var mybutton = document.getElementById("myBtn");
+
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+
+
+</script>
+</html>
