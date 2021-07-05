@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Activity 3: Writing for the Web Workshop </title>
+        <!-- Style Sheets-->
+        <link rel="stylesheet" href="../CSS/CSS_AssignmentPage.css">
+
+    </head>
+
+    <div class="website">
+        <div class="Banner">
+            <!--Banner image and link to homepage-->
+           <h1><a class="header" href = "../HTML_Home.html">INSC 598: Web Design</a></h1> 
+        </div>
+        <div class="Navigation-Bar">
+            <p>
+                <a class="navigation" href="../HTML_Home.html">Home</a>
+                <a class="navigation" href="../Module1/HTML_Module1.html">Module 1</a> 
+                <a class="navigation" href="../Module1/HTML_Module2.html">Module 2</a>
+                <a class="navigation" href="../Module1/HTML_Module3.html">Module 3</a>
+                <a class="navigation" href="../Module1/HTML_Module4.html">Module 4</a>
+            </p>
+        </div>
+        <div class="Assignment-Box">
+            <h1>Activity 3: Writing for the Web Workshop</h1>
+            <h2>Instructions</h2>
+            <ul>
+                <li>Read one of the articles below and summarize the main ideas/highlights/conclusions in two or three sentences. This this will go to the beginning and serve as an overview of the rewritten article.</li>
+                <li>Read the article again, identify at least two sub-topics, and restructure the article into two or more sections accordingly.</li>
+                <li>Work on a subhead for each section.</li>
+                <li>Read each section and summarize the main ideas for that section in two or three sentences, this will go to the beginning of each section and serve as a “section overview.”</li>
+                <li>Break long paragraphs into shorter ones – one idea, one paragraph; use lists where appropriate; cut out non-essential information and words – keep the rewrite short and concise.</li>
+                <li>Post this on the discussion board before next class.</li>
+            </ul>  
+            <br>
+            <h3>Articles</h3>
+            <ul>
+                <li><a href=”https://hbr.org/2020/06/do-your-employees-know-why-you-believe-in-racial-equity”>Article 1</a></li>
+                <li><a href=”https://hbr.org/2021/06/legacy-companies-need-to-become-more-data-driven-fast">Article 2</a>/li>
+                <li><a href="https://www.nytimes.com/2020/02/22/opinion/syria-turkey-refugees.html">Article 3</a></li>
+                <li><a href="https://www.nytimes.com/2020/02/28/well/family/raising-a-nontoxic-man.html">Article 4</a></li>
+                <li><a href="https://www.theverge.com/2020/2/19/21142728/samsung-foldable-glass-galaxy-z-flip-explained-schott-corning">Article 5</a></li>
+                <li><a href="https://hbr.org/2018/07/collaborative-intelligence-humans-and-ai-are-joining-forces">Article 6</a></li>
+            </ul>
+
+        </div>
+        <div class="Image-Box">
+            <p><img src="../Images/41.jpg" height="250px"></p>
+        </div>
+        <div class="Website-Footer">
+            <p>For more information, please contact professor.</p>
+        </div>
+      </div>
+
+</html>
 
