@@ -82,7 +82,15 @@
                 <li><a href="http://www.useit.com/alertbox/9606.html>Write inverted pyramids in cyberspace</a></li>
                 <li><a href="http://www.useit.com/papers/webwriting/rewriting.html">Case study: Applying Writing Guidelines to Web Pages</a></li>
             </ul>
-
+                <h4>Section 3.3 Activity</h4>
+                <ul>
+                    <li><a href="./HTML_Assignment_Activity3.html">Writing for the Web</a></li>
+                 </ul>
+                 <h4>Section 3 Assignment</h4>
+            <ul>
+                <li><a href="./HTML_Assignment_Assignment2.html">Assignment 2: Static Website Creation</a></li>
+            </ul>
+        </div>
         </div>
 
         <div class="Assignment-Box"></div>
