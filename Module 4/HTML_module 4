@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Module 4: Cascading Style Sheets (CSS)</title>
+        <!-- Style Sheets-->
+        <link rel="stylesheet" href="../CSS/CSS_ModulePage.css">
+
+    </head>
+
+    <div class="webpage">
+        <div class="Banner">
+            <!--Banner image and link to homepage-->
+           <h1><a class="header" href = "../HTML_Home.html">INSC 598: Web Design</a></h1> 
+        </div>
+        <div class="Navigation-Bar">
+            <!--Navigation Links-->
+            <p>
+                <a class="navigation" href="../HTML_Home.html">Home</a>
+                <a class="navigation" href="../Module1/HTML_Module1.html">Module 1</a> 
+                <a class="navigation" href="../Module1/HTML_Module2.html">Module 2</a>
+                <a class="navigation" href="../Module1/HTML_Module3.html">Module 3</a>
+                <a class="navigation" href="../Module1/HTML_Module4.html">Module 4</a>
+            </p>
+        </div>
+
+        <div class="Module-Overview">
+            <h2>Module 4: Cascading Style Sheets (CSS)</h2>
+            <p>In this module, we will cover the basics of creating Cascading Style Sheets (CSS) and complete a workshop applying CSS to HTML files.</p>
+        </div>
+
+        <div class="Module-To-Do">
+            <h4>Module Sections and Assignment Links</h4>
+            <ul>
+                <li>4.1 Learning Materials: CSS</li>
+                <li><a href="./HTML_Assignment_Activity4.html">Assignment 4: Practicing CSS</a></li>
+		<li>Review</li>
+            </ul>
+        </div>
+
+        <div class="Module-Section-1-Body">
+            <h3>4.1 Learning Materials: CSS</h3>
+            <p>Use the links below to practice using CSS and integrating CCS into an HTML page.</p>
+        </div>
+        <div class="Module-Section-1-Links">
+            <h4>Section 4.1 Learning Materials</h4>
+            <ul>
+                <li><a href="https://www.linkedin.com/learning-login/share?forceAccount=true&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F6631568766675238912%3Ftrk%3Dshare_collection_url&account=42574436">CSS Tutorials</a></li>
+                <li><a href="https://www.w3schools.com/css/">CSS Practice</a></li>
+            </ul>
+        </div>
+
+        <div class="Module-Section-2-Links">
+            <h4>Section 4.2 Activity</h4>
+            <ul>
+                <li><a href="./HTML_Assignment_Activity4.html">Assignment 4: Practicing CSS</a></li>
+            </ul>
+        </div>
+
+
+        <div class="Module-Section-3-Body">
+            <h3>Review</h3>
+            <p>This week you learned about the basic concepts of CSS, what it is, why it is needed and you completed a workshop with basic elements of CSS.
+<br>
+<br>
+Now that you know the back end of a website in terms of Information Architecture, Design Elements, HTML and CSS, we will learn about software tools that are available to build websites that are more robust and can display dynamic content.
+</p>
+        </div>
+
+
+        <div class="Module-Navigation">
+            <button onclick="topFunction()" id="myBtn" title="Go to top" >Jump to top</button>
+            <br>
+            <button onclick="link">Next Module</button>
+            <br>
+            <button  onclick="link">Previous Module</button>
+
+        </div>
+
+        <div class="Website-Footer">
+            <p>For more information, please contact professor.</p>
+        </div>
+      </div>
+
+<!-- some javascript for jump to top buttons! Don't be scared!-->
+<script>
+    var mybutton = document.getElementById("myBtn");
+
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+
+
+</script>
+</html>
