@@ -34,8 +34,8 @@
                 <li>3.1 Page Layout Techniques</li>
                 <li>3.2 Graphics for the Web</li>
                 <li>3.3 Writing for the Web</li>
-                <li>Activity 3: Writing for the Web</li>
-                <li><li><a href="./HTML_Assignment_Activity3.html">Assignment 2: Static Website Creation</a></li>
+                <li><a href="./HTML_Assignment_Activity3.html">Activity 3: Writing for the Web</a></li>
+                <li><li><a href="./HTML_Assignment_Assignment2.html">Assignment 2: Static Website Creation</a></li>
             </ul>
         </div>
 
@@ -73,11 +73,14 @@
         </div>
 
         <div class="Module-Section-3-Links">
-            <h4>Section 3 Readings</h4>
+            <h4>Module 3.3 Readings</h4>
             <ul>
-                <li>Reading 1</li>
-                <li>Reading 2</li>
-                <li>Reading 3</li>
+                <li>Short summary of the original findings: How users <a href="http://www.useit.com/alertbox/9710a.html">read on the Web</a> [read this one first]
+                <li><a href="http://www.useit.com/alertbox/percent-text-read.html">How little do users read?</a></li>
+                <li><a href="http://www.useit.com/alertbox/reading_pattern.html">F-shaped pattern for reading web content,</a> as seen in eye-tracking studies</li>
+                <li><a href="http://www.useit.com/alertbox/print-vs-online-content.html>Writing style for print vs. Web</a></li>
+                <li><a href="http://www.useit.com/alertbox/9606.html>Write inverted pyramids in cyberspace</a></li>
+                <li><a href="http://www.useit.com/papers/webwriting/rewriting.html">Case study: Applying Writing Guidelines to Web Pages</a></li>
             </ul>
 
         </div>
