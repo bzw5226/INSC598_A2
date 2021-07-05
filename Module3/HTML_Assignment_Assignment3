@@ -22,26 +22,26 @@
             </p>
         </div>
         <div class="Assignment-Box">
-            <h1>Assignment 2: Static Website Creation</h1>
+           <h1>Assignment 2: Static Website Creation</h1>
            <h2>Overview</h2>
            <p>For this assignment, you will be creating a static html site with multiple pages. The purpose of this assignment is to provide you with hands on experience with html, css, site navigation and creation of a static website.</p>
            <br>
-           <h2>Identifying a topic for the Website<h2>
+           <h3>Identifying a topic for the Website</h3>
            <p>I am providing you with some suggestions for creating a website, these are just suggestions, if there is any other information environment for which you would like to create a site, please email me with your topic of choice.</p>
-           <ul>
-	  	<ol>An organization that you work for</ol>
-		<ol>A website for a personal e-portfolio</ol>
-                <ol>A website for this course</ol>
-		<ol>A website for an interest group</ol>
-		<ol>A resource website like a pathfinder or a collection of tutorials on a topic and its related sub-topics, etc.</ol>
-	</ul>
+           <ol>
+	  	<li>An organization that you work for</li>
+		<li>A website for a personal e-portfolio</li>
+                <li>A website for this course</li>
+		<li>A website for an interest group</li>
+		<li>A resource website like a pathfinder or a collection of tutorials on a topic and its related sub-topics, etc.</li>
+	</ol>
 	<br>
-	<h2>Details of the Website</h2>
+	<h3>Details of the Website</h3>
 	<p>For successful completion of this assignment you will be implementing the following:</p>
 	<br>
-	<h3>Hosting<h3>
+	<h4>Hosting<h4>
 	<p>Your website will be hosted on the utk server, you will be using the server space provided to one your group members. Identify that site as the first thing in the process.</p>
-	<h3>Website Features</h3>
+	<h4>Website Features</h4>
 	<ul>
 		<ol>Each website will consist of at least nine html pages. These pages are to be accessible from homepage and must be interlinked.</ol>
 		<ol>Website must have a logo or a banner at the top of homepage and on all the pages.</ol>
