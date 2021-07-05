@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> <!-- Page Title --> </title>
+        <title>Module 3: Design Elements</title>
         <!-- Style Sheets-->
         <link rel="stylesheet" href="../CSS/CSS_ModulePage.css">
 
@@ -24,30 +24,31 @@
         </div>
 
         <div class="Module-Overview">
-            <h2>Module Title</h2>
-            <p>Module overview description.</p>
+            <h2>Module 3: Design Elements</h2>
+            <p>In this module, we will discuss page layout technique, graphics for the web, and writing for the web.</p>
         </div>
 
         <div class="Module-To-Do">
             <h4>Module Sections and Assignment Links</h4>
             <ul>
-                <li>Section 1</li>
-                <li>Section 2</li>
-                <li>Section 3</li>
-                <li>Assignment</li>
+                <li>3.1 Page Layout Techniques</li>
+                <li>3.2 Graphics for the Web</li>
+                <li>3.3 Writing for the Web</li>
+                <li>Activity 3: Writing for the Web</li>
+                <li><li><a href="./HTML_Assignment_Activity3.html">Assignment 2: Static Website Creation</a></li>
             </ul>
         </div>
 
         <div class="Module-Section-1-Body">
-            <h3>Section 1 Title</h3>
-            <p>Section 1 description</p>
+            <h3>3.1 Page Layout Techniques</h3>
+            <p>Choosing the right layout for your site is integral to its success.</p>
         </div>
         <div class="Module-Section-1-Links">
             <h4>Section 1 Readings</h4>
             <ul>
-                <li><a href="Link">Reading 1</a></li>
-                <li>Reading 2</li>
-                <li>Reading 3</li>
+                <li><a href="https://websitesetup.org/website-layouts/">Different Types of Website Layouts</a></li>
+                <li><a href="https://www.toptal.com/designers/ui/web-layout-best-practices">Website Layouts Best Practices</a></li>
+                <li><a href="https://colibriwp.com/blog/website-layout-design-ideas/">Website Layout Design Ideas</a></li>
             </ul>
         </div>
 
