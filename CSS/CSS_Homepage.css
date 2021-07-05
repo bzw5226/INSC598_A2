@@ -1,165 +1,66 @@
-.container {
+.website {
   display: grid;
-  grid-template-columns: 0.6fr 1.2fr 1.2fr;
-  grid-template-rows: 150px 50px 0.6fr 0.2fr 0.7fr 0.2fr 0.8fr 0.2fr 6fr;
-  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1.5fr 3fr 1.5fr 1fr;
+  grid-template-rows: 150px 50px max-content 100px;
   gap: 0px 0px;
-  grid-auto-flow: row dense;
+  grid-auto-flow: row;
   grid-template-areas:
-    "Header Header Header"
-    "Navigation Welcome Welcome"
-    "Navigation Objectives Instructor"
-    "Navigation How-to-be-successful How-to-be-successful"
-    "Navigation Get-Organized Get-Help"
-    "Navigation Technology-Resources Technology-Resources"
-    "Navigation Tech-You-Need Contact-for-Tech-Questions"
-    ". . ."
-    ". . .";
+    "Banner Banner Banner Banner Banner"
+    "Navigation-Bar Navigation-Bar Navigation-Bar Navigation-Bar Navigation-Bar"
+    ". Assignment-Box Assignment-Box Image-Box ."
+    "Website-Footer Website-Footer Website-Footer Website-Footer Website-Footer";
+  background-color: #E1ECF9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.Header { grid-area: Header; }
-
-.Welcome { grid-area: Welcome; }
-
-.Instructor { grid-area: Instructor; }
-
-.Objectives { grid-area: Objectives; }
-
-.How-to-be-successful { grid-area: How-to-be-successful; }
-
-.Get-Organized { grid-area: Get-Organized; }
-
-.Get-Help { grid-area: Get-Help; }
-
-.Technology-Resources { grid-area: Technology-Resources; }
-
-.Tech-You-Need { grid-area: Tech-You-Need; }
-
-.Contact-for-Tech-Questions { grid-area: Contact-for-Tech-Questions; }
-
-.Navigation { grid-area: Navigation; }
-
-
-html, body , .container {
-  height: 100%;
-  margin: 0;
-}
   
-/* For presentation only, no need to copy the code below */
-
-.container * {
-  border: 1px solid red;
-  position: relative;
+.Banner { 
+  grid-area: Banner; 
+  padding-left: 25px;
+  background-image: url("http://www.rhodesonthepawtuxet.com/wp-content/themes/options/images/skins/headers/boxed/header-midnightBlue.jpg");
+  color: #ffffff;
 }
 
-.container *:after {
-  content:attr(class);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  align-items: center;
-  justify-content: center;
+.Navigation-Bar { 
+  grid-area: Navigation-Bar; 
+  padding-left: 25px;
+  background-color: #091D34;
+  color: #ffffff;
+
 }
-  .Banner { 
-      grid-area: Banner; 
-      padding-left: 25px;
-      background-image: url("http://www.rhodesonthepawtuxet.com/wp-content/themes/options/images/skins/headers/boxed/header-midnightBlue.jpg");
-      color: #ffffff;
-    }
-  
-  .Navigation-Bar { 
-      grid-area: Navigation-Bar; 
-      padding-left: 25px;
-      background-color: #091D34;
-      color: #ffffff;
-      border: 2px solid #111111;
 
-    }
+.Assignment-Box { grid-area: Assignment-Box; }
 
-  .Module-Overview { grid-area: Module-Overview;
-    margin: 10px;
-    padding: 10px; 
-    }
-  
-  .Module-To-Do { grid-area: Module-To-Do;
-    margin: 10px;
-    padding: 10px; 
-    background-color: #609CE1aa;
-    color: #ffffff}
-  
-  .Module-Section-3-Body { grid-area: Module-Section-3-Body;
-    margin: 10px;
-    padding: 10px; }
-  
-  .Module-Section-2-Body { grid-area: Module-Section-2-Body;
-    margin: 10px;
-    padding: 10px; }
-  
-  .Module-Section-1-Body { 
+.Image-Box { grid-area: Image-Box; }
 
-      grid-area: Module-Section-1-Body; 
-      margin: 10px;
-      padding: 10px;
-    }
-  
-  .Module-Section-1-Links { 
-      grid-area: Module-Section-1-Links;
-      margin: 10px;
-      padding: 10px;
-      background-color: #609CE1aa;
-      color: #ffffff
-     }
-  
-  .Module-Section-2-Links { grid-area: Module-Section-2-Links;
-    margin: 10px;
-    padding: 10px;
-    background-color: #609CE1aa;
-    color: #ffffff }
-  
-  .Module-Section-3-Links { grid-area: Module-Section-3-Links;
-    margin: 10px;
-    padding: 10px; 
-    background-color: #609CE1aa;
-    color: #ffffff}
-  
-  .Module-Navigation { 
-      align-items: center;
-      grid-area: Module-Navigation;
-      text-align:center;
-      padding: 10px;
-      border: 2px solid #091D34;
-      background-color: #9eb8d6;
-
-     }
-  
-  .Website-Footer { 
-      grid-area: Website-Footer;
-      text-align: center;
-      background-color: #133863;
-      color: #ffffff;
-    }
-  
-
-h4 {
+.Website-Footer { 
+  grid-area: Website-Footer;
   text-align: center;
-}
-
-h3 {
-  text-decoration: underline;
-}
-
-.topbutton {
-  font-weight: bold;
+  background-color: #133863;
+  color: #ffffff;
 }
 
 a {
-  color:#ffffff;
+  color:#236AB9;
 }
 
 a:visited{
+  color: #133863;
+}
+
+a.navigation{
+  color:#ffffff;
+}
+
+a.navigation:visited {
   color: #609CE1;
 }
 
+a.header {
+  color:#ffffff;
+  text-decoration: none;
+}
+a.header:visited {
+  color:#ffffff;
+  text-decoration: none;
+}
