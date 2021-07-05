@@ -44,7 +44,7 @@
             <p>Choosing the right layout for your site is integral to its success.</p>
         </div>
         <div class="Module-Section-1-Links">
-            <h4>Section 1 Readings</h4>
+            <h4>Section 3.1 Readings</h4>
             <ul>
                 <li><a href="https://websitesetup.org/website-layouts/">Different Types of Website Layouts</a></li>
                 <li><a href="https://www.toptal.com/designers/ui/web-layout-best-practices">Website Layouts Best Practices</a></li>
@@ -53,16 +53,16 @@
         </div>
 
         <div class="Module-Section-2-Body">
-            <h3>Section 2 Title</h3>
-            <p>Section 2 description</p>
+            <h3>Module 3.2 Graphics for the Web</h3>
+            <p>In this module, we will learn about creating optimized web graphics and why this is important</p>
         </div>
 
         <div class="Module-Section-2-Links">
-            <h4>Section 2 Readings</h4>
+            <h4>Section 3.2 Readings</h4>
             <ul>
-                <li>Reading 1</li>
-                <li>Reading 2</li>
-                <li>Reading 3</li>
+                <li><a href="https://www.linkedin.com/learning/creating-optimized-web-graphics?u=0">Graphics for the Web: LinkedIn Learning</a></li>
+                <li>Learn more about images <a href="https://guides.lib.umich.edu/allaboutimages">here</a> and <a href="https://guides.nyu.edu/copyright/images">here</a></li>
+                
             </ul>
         </div>
 
