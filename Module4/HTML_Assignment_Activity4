@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Assignment 4.2: Practicing CSS</title>
+        <!-- Style Sheets-->
+        <link rel="stylesheet" href="../CSS/CSS_AssignmentPage.css">
+
+    </head>
+
+    <div class="website">
+        <div class="Banner">
+            <!--Banner image and link to homepage-->
+           <h1><a class="header" href = "../HTML_Home.html">INSC 598: Web Design</a></h1> 
+        </div>
+        <div class="Navigation-Bar">
+            <p>
+                <a class="navigation" href="../HTML_Home.html">Home</a>
+                <a class="navigation" href="../Module1/HTML_Module1.html">Module 1</a> 
+                <a class="navigation" href="../Module1/HTML_Module2.html">Module 2</a>
+                <a class="navigation" href="../Module1/HTML_Module3.html">Module 3</a>
+                <a class="navigation" href="../Module1/HTML_Module4.html">Module 4</a>
+            </p>
+        </div>
+        <div class="Assignment-Box">
+            <h1>Activity 4.2: Practicing CSS</h1>
+            <p>Hi All,<br>
+<br>
+If you would like to practice how to make CSS work; here is an optional exercise for you.<br>
+<br>
+This will help you in understanding how to apply a CSS file to your HTML files.<br>
+<br>
+For this activity you will need atleast two HTML files (from a previous assignment or workshop will work fine or from your Assignment 2 content) and you will create one css file.<br>
+<br>
+Important to have ALL the files - HTML, images and the CSS file in one folder on your desktop.<br>
+<br>
+Start simple, by applying one rule in your css file – for example<br>
+<br>
+1. you could write a rule about the page background color in a text file<br>
+<br>
+body {<br>
+  background-color: yellow;<br>
+}<br>
+<br>
+2. then save this text file as a styles.css<br>
+<br>
+3. Then add the following line in each HTML page<br> 
+"link rel="stylesheet" href="styles.css"<br>
+<br>
+4. Now you have applied the style sheet to  all HTML files where you added that line above<br>
+<br>
+5. Now you can edit the styles.css file one rule at a time for as many rules as you need<br>
+<br>
+So, for your Assignment 2 website - my recommendation is to first make your HTML pages with the content that you want in these pages and then create an external style sheet and apply it to these pages.<br>
+<br>
+Hope this helps.<br>
+<br>
+<br> <br>
+                Your results must include:<br>
+ <br>
+1. Is the site you tested responsive to multiple formats? Does it perform well on all the devices? Or on some devices?<br>
+<br>
+2. Why do you think the website is performing well on a particular device? So, does the responsive version include important aspects of the site? Does it present the content in an intuitive way? Similarly, if it performs poorly on a device - what are the issues in this representation? What does it get wrong.<br>
+<br>
+3. What did you learn from this exercise about design?<br>
+<br>
+Please feel free to use screenshots to explain your points.
+                <br> <br>
+              
+            </p>
+        </div>
+        <div class="Image-Box">
+            <p><img src="../Images/41.jpg" height="250px"></p>
+        </div>
+        <div class="Website-Footer">
+            <p>For more information, please contact professor.</p>
+        </div>
+      </div>
+
+</html>
