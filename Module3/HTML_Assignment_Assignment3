@@ -29,30 +29,32 @@
            <h2>Identifying a topic for the Website<h2>
            <p>I am providing you with some suggestions for creating a website, these are just suggestions, if there is any other information environment for which you would like to create a site, please email me with your topic of choice.</p>
            <ul>
-	            <ol>An organization that you work for</ol> 	<ol>A website for a personal e-portfolio</ol>
+	  	<ol>An organization that you work for</ol>
+		<ol>A website for a personal e-portfolio</ol>
                 <ol>A website for this course</ol>
-	<ol>A website for an interest group</ol> 	<ol>A resource website like a pathfinder or a collection of tutorials on a topic and its related sub-topics, etc.</ol>
-    </ul>
-<br>
-<h2>Details of the Website</h2>
-<p>For successful completion of this assignment you will be implementing the following:</p> 
-<br>
-<h3>Hosting<h3>
-<p>Your website will be hosted on the utk server, you will be using the server space provided to one your group members. Identify that site as the first thing in the process.</p>
-<h3>Website Features</h3>
-<ul>
-<ol>Each website will consist of at least nine html pages. These pages are to be accessible from homepage and must be interlinked.</ol>
-<ol>Website must have a logo or a banner at the top of homepage and on all the pages.</ol>
-<ol>All the pages on the website must have identical navigation on all the pages allowing you to navigate between pages.</ol>
-<ol>The webpages must be some other font than the default and the color of the non-link text in the document should be some other color than black.</ol>
-<ol>The pages on the site should have a background color on other than white.</ol>
-<ol>There should be external hyperlinks on your website that direct you to a website that is external.</ol>
-<ol>The links should change color when clicked; mouse hover and the color should be something other than the default color.</ol>
-<ol>Your pages should validate using the W3C HTML Validator. Warnings are OK (yellow) - your documents cannot have any errors (red).</ol>
-<ol> You will submit the assignment in the form of a URL.</ol>
-</ul>
-<h3>Grading</h3>
-<p>This assignment is 30% of your grade, 25% of that will be based on the website submitted and 5% will be based on the peer evaluation that your team will submit for each of the group member. The details for the peer evaluation will be provided to you.</p>
+		<ol>A website for an interest group</ol>
+		<ol>A resource website like a pathfinder or a collection of tutorials on a topic and its related sub-topics, etc.</ol>
+	</ul>
+	<br>
+	<h2>Details of the Website</h2>
+	<p>For successful completion of this assignment you will be implementing the following:</p>
+	<br>
+	<h3>Hosting<h3>
+	<p>Your website will be hosted on the utk server, you will be using the server space provided to one your group members. Identify that site as the first thing in the process.</p>
+	<h3>Website Features</h3>
+	<ul>
+		<ol>Each website will consist of at least nine html pages. These pages are to be accessible from homepage and must be interlinked.</ol>
+		<ol>Website must have a logo or a banner at the top of homepage and on all the pages.</ol>
+		<ol>All the pages on the website must have identical navigation on all the pages allowing you to navigate between pages.</ol>
+		<ol>The webpages must be some other font than the default and the color of the non-link text in the document should be some other color than black.</ol>
+		<ol>The pages on the site should have a background color on other than white.</ol>
+		<ol>There should be external hyperlinks on your website that direct you to a website that is external.</ol>
+		<ol>The links should change color when clicked; mouse hover and the color should be something other than the default color.</ol>
+		<ol>Your pages should validate using the W3C HTML Validator. Warnings are OK (yellow) - your documents cannot have any errors (red).</ol>
+		<ol> You will submit the assignment in the form of a URL.</ol>
+	</ul>
+	<h3>Grading</h3>
+	<p>This assignment is 30% of your grade, 25% of that will be based on the website submitted and 5% will be based on the peer evaluation that your team will submit for each of the group member. The details for the peer evaluation will be provided to you.</p>
 
 
         </div>
