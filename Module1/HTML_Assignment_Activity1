@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Assignment 1: Website Critique </title>
+        <!-- Style Sheets-->
+        <link rel="stylesheet" href="../CSS/CSS_AssignmentPage.css">
+
+    </head>
+
+    <div class="website">
+        <div class="Banner">
+            <!--Banner image and link to homepage-->
+           <h1><a class="header" href = "../HTML_Home.html">INSC 598: Web Design</a></h1> 
+        </div>
+        <div class="Navigation-Bar">
+            <p>
+                <a class="navigation" href="../HTML_Home.html">Home</a>
+                <a class="navigation" href="../Module1/HTML_Module1.html">Module 1</a> 
+                <a class="navigation" href="../Module1/HTML_Module2.html">Module 2</a>
+                <a class="navigation" href="../Module1/HTML_Module3.html">Module 3</a>
+                <a class="navigation" href="../Module1/HTML_Module4.html">Module 4</a>
+            </p>
+        </div>
+        <div class="Assignment-Box">
+            <h1>Activity 1: Responsive Web Design</h1>
+            <p>Use this website <a href="https://www.respinsinator.com/">www.responsinator.com</a> (Links to an external site.) to test the responsiveness of any website that you would like to test.
+Post the URL to your test page from Responsinator.
+Post your observations. <br> <br>
+                Your results must include:
+ <br>
+1. Is the site you tested responsive to multiple formats? Does it perform well on all the devices? Or on some devices?
+<br>
+2. Why do you think the website is performing well on a particular device? So, does the responsive version include important aspects of the site? Does it present the content in an intuitive way? Similarly, if it performs poorly on a device - what are the issues in this representation? What does it get wrong.
+<br>
+3. What did you learn from this exercise about design?
+
+Please feel free to use screenshots to explain your points.
+                <br> <br>
+              
+            </p>
+        </div>
+        <div class="Image-Box">
+            <p><img src="../Images/41.jpg" height="250px"></p>
+        </div>
+        <div class="Website-Footer">
+            <p>For more information, please contact professor.</p>
+        </div>
+      </div>
+
+</html>
